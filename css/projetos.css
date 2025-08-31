@@ -1,0 +1,35 @@
+/* Projetos */ 
+
+#projetos{
+    line-height: 1.5;
+    margin: 10px;
+    text-align: center;
+}
+
+#projetos ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+#projetos ul li {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#projetos ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: #f0f0f0;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: #959595 2px 2px 5px;
+}

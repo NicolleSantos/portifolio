@@ -1,0 +1,41 @@
+#apresentacao {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#foto-perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+#info-apresentacao h2,
+#info-apresentacao p,
+#info-apresentacao ul {
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+#info-apresentacao{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.logo {
+    width: 20px;
+    height: 20px;
+}
+ul {
+    display: inline-flex;
+    list-style: none;
+    gap: 20px;
+}
+
+ul li a{
+    text-decoration: underline;
+    color: black;
+}

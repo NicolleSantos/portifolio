@@ -1,0 +1,7 @@
+/* Formatação do texto no main*/
+
+#info-sobremim{
+    text-align: justify;
+    line-height: 1.5;
+    margin: 10px;
+}

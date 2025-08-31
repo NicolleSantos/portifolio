@@ -1,0 +1,102 @@
+/* Estilização da página de contato */
+
+.container-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#info-contato {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#info-contato h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+#info-contato p {
+    margin: 4px 0;
+    font-size: 1rem;
+}
+
+
+/* Formulário de fale comigo */
+.container-form {
+    background-color: #000; 
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #fff; 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); 
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    color: #fff; 
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: block;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff; 
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #555; 
+    background-color: #555; 
+    color: #fff; 
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #ffffff;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding: 15px;
+    background-color: #000;
+    color: #fff; 
+    border: 1px solid #fff; 
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+button:hover {
+    background-color: #fff; 
+    color: #000;
+}
+
+/* Fim da estilização de contato */
